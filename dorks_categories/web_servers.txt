@@ -1,0 +1,20 @@
+1.  intitle:"IIS Windows Server" -domain:microsoft.com
+2.  intitle:"Apache2 Ubuntu Default Page" inbody:"It works!"
+3.  intitle:"Test Page for Apache" region:us
+4.  intitle:"Welcome to Nginx" -domain:nginx.com
+5.  intitle:"Welcome to Centos"
+6.  inurl:phpinfo filetype:php
+7.  inbody:"Apache Server Status" inurl:"/server-status"
+8.  inurl:"/server-info" inbody:"Apache Server Information"
+9.  inbody:"XAMPP Version" intitle:"Welcome to XAMPP"
+10. inurl:"/manual/" intitle:"Apache HTTP Server"
+11. intitle:"Plesk" inurl:login.php
+12. intitle:"cPanel" inurl:2082
+13. intitle:"DirectAdmin" inurl:2222
+14. inbody:"Webmin" intitle:"Login"
+15. inurl:phpmyadmin/setup/
+16. intitle:"RouterOS" inurl:login
+17. intitle:"D-Link" inurl:login.php
+18. intitle:"Network Camera NetworkCamera"
+19. inurl:userRpm inurl:LoginRpm.htm (لأجهزة TP-Link)
+20. intitle:"Printer Status" inurl:hp/device/

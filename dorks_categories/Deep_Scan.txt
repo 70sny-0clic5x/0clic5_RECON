@@ -1,0 +1,30 @@
+site:{t} intitle:"index of" (backup|old|conf|db|sql|".git"|".ssh")
+site:{t} (filetype:env|filetype:yml|filetype:conf|filetype:config) "SECRET"|"TOKEN"|"API"|"PWD"
+site:{t} (filetype:sql|filetype:dbf|filetype:mdb|filetype:sqlite|filetype:bak) "password"|"admin"
+site:{t} inurl:(admin|login|panel|portal|auth|manage|dashboard|signin)
+site:{t} (filetype:log|filetype:txt) "user" "pass" "creds" "login"
+site:{t} inbody:("PHP Parse error"|"Database error"|"SQL syntax"|"Fatal error")
+site:{t} (filetype:xls|filetype:xlsx|filetype:csv) "password"|"email"|"phone"|"salary"
+site:{t} filetype:pdf ("Assessment Report"|"confidential"|"SECRET//NOFORN"|"network map")
+site:{t} intitle:"index of" (mail|mailbox|inbox|contacts|clients|users)
+site:{t} inurl:phpinfo filetype:php
+site:{t} inbody:("cvv"|"card number") inbody:("exp"|"zip")
+site:{t} (filetype:pfx|filetype:pem|filetype:key) "private"
+site:{t} inurl:(pma|phpmyadmin|adminer|dbadmin)
+site:{t} intitle:"index of" inbody:("dcim"|"camera"|"whatsapp")
+site:{t} inbody:("D.N.I"|"SSN"|"National ID"|"Passport")
+site:{t} inurl:debug.log | inurl:error_log | inurl:access.log
+site:{t} inbody:("access_key"|"secret_key"|"aws_token")
+site:{t} intitle:"index of" (docs|documents|private|internal)
+site:{t} (filetype:rdp|filetype:config) "full address" "username"
+site:{t} inbody:("password is"|"default password"|"credentials") filetype:pdf
+site:{t} inurl:server-status | inurl:server-info
+site:{t} (filetype:sh|filetype:bash|filetype:py) "password"|"ssh"
+site:{t} intitle:"index of" (etc|var|bin|conf|usr)
+site:{t} inbody:("Warning: mysqli_connect"|"PostgreSQL query failed")
+site:{t} filetype:docx "confidential" "restricted" "internal use only"
+site:{t} inurl:composer.json | inurl:package.json
+site:{t} inurl:backup filetype:zip | filetype:tar | filetype:gz
+site:{t} intitle:"index of" inbody:("invoice"|"order"|"payment")
+site:{t} inurl:viewvc | inurl:cvsweb
+site:{t} inbody:("Set-Cookie:"|"PHPSESSID=") filetype:log

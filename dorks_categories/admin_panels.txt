@@ -1,0 +1,26 @@
+1.  intitle:Admin inurl:login.php region:in
+2.  inurl:admin/login.php inbody:"CMS"
+3.  inurl:administrator inbody:"welcome to mambo"
+4.  inurl:login.lua intitle:FRITZ!Box
+5.  inurl:admincp inbody:"vbulletin"
+6.  inurl:admin/mailman intitle:"Mailman Administrator Authentication"
+7.  inurl:admin/changepassword
+8.  inurl:admin.php inurl:admin filetype:php
+
+# ملفات حساسة داخل لوحات التحكم (Sensitive Data)
+9.  inurl:admin filetype:mdb
+10. inurl:wp-config filetype:txt inbody:DB_PASSWORD
+11. inurl:admin/userlist filetype:asp
+12. inurl:wp-content/uploads filetype:sql
+13. inurl:debug.log inurl:wp-content
+14. inurl:login filetype:txt
+
+# ثغرات المجلدات المفتوحة (Directory Listing)
+15. intitle:"index of" inurl:admin/data
+16. intitle:"index of" inurl:wp-json/oembed
+17. intitle:"index of" inurl:backup inurl:admin
+18. intitle:"index of" inurl:wp-content inbody:backup-db
+
+# أنظمة حكومية وتعليمية (High-Target)
+19. intitle:"admin console" inurl:login (domain:edu | domain:gov)
+20. inbody:"GOVERNMENT INFORMATION SYSTEM" inurl:login.aspx

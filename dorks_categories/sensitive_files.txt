@@ -1,0 +1,20 @@
+1.  filetype:sql "-- MySQL dump" inbody:password
+2.  filetype:sql "INSERT INTO" (pass|passwd|password)
+3.  filetype:sql "phpmyAdmin SQL Dump" (user|pass)
+4.  filetype:sql "PostgreSQL database dump"
+5.  filetype:db inurl:admin
+6.  filetype:env "DB_PASSWORD" -domain:github.com
+7.  filetype:env "AWS_SECRET"
+8.  filetype:config inurl:web.config inbody:"password"
+9.  inbody:connectionString filetype:config inurl:web
+10. filetype:log "password" inurl:password.log
+11. filetype:log "PHP Parse error" | "PHP Warning"
+12. filetype:log "access.log" inbody:admin
+13. filetype:log "telnet" inbody:password
+14. inurl:wp-content/debug.log
+15. filetype:xls "username" "password" "email"
+16. filetype:xlsx "accounts" inbody:password
+17. filetype:pdf "Assessment Report" nessus
+18. filetype:pdf "acunetix website audit"
+19. inurl:ftp filetype:xls "taxreturn"
+20. filetype:pdf "SECRET//NOFORN"

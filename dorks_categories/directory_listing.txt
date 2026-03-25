@@ -1,0 +1,26 @@
+1.  intitle:"index of" "/.env"
+2.  intitle:"index of" "config.py"
+3.  intitle:"index of" "docker-compose" filetype:yml
+4.  intitle:"index of" "database.yml" inbody:password
+5.  intitle:"index of" "/etc/mysql/"
+6.  intitle:"index of" ".bash_history"
+7.  intitle:"index of" "unattend.xml"
+
+# مفاتيح التشفير والـ API (Keys & Credentials)
+8.  inbody:APIKey (filetype:js | filetype:yml | filetype:conf)
+9.  intitle:"index of" filetype:pem
+10. intitle:"index of" "id_rsa"
+11. intitle:"index of" "access_token" filetype:txt
+12. intitle:"index of" "credentials.yml"
+
+# مجلدات حساسة ومخفية (Hidden Directories)
+13. intitle:"index of" "/.git"
+14. intitle:"index of" "/wp-content/uploads/ninja-forms/"
+15. intitle:"index of" "WhatsApp Databases"
+16. intitle:"index of" "DCIM" (للبحث عن الصور المسربة)
+17. intitle:"index of" "/content/admin/"
+
+# ملفات النسخ الاحتياطي (Backups & Logs)
+18. intitle:"index of" "backup" filetype:bak
+19. intitle:"index of" "mail.log" filetype:log
+20. intitle:"index of" "mysql.log"
