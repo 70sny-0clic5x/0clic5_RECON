@@ -69,7 +69,7 @@ project/
 ### Installation
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/70sny-0clic5x/0clic5_RECON.git)
 
 # Install required modules
 pip install playwright colorama google-generativeai
@@ -103,4 +103,4 @@ python main.py
 
 This tool is strictly for **Authorized Penetration Testing and Ethical Hacking**.
 
-The developer (**70SNY_0XHUNTER**) is **not responsible** for misuse or unauthorized targeting.
+The developer (**70SNY_0xHUNTER**) is **not responsible** for misuse or unauthorized targeting.
