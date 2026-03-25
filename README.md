@@ -1,7 +1,11 @@
 # Øclic5Recon (70SNY_0xHUNTER)
 ### Advanced AI-Driven OSINT & Automated Dorking Framework
 
-**Øclic5Recon** is a high-performance reconnaissance framework designed for penetration testers and bug bounty hunters. It automates the discovery of exposed assets and sensitive data by combining stealthy browser automation with Google Gemini AI for real-time threat analysis.
+> **Keywords:** OSINT Framework, Google Dorking Tool, AI Security Analysis, Gemini AI, Penetration Testing, Bug Bounty Tools, Information Gathering, Reconnaissance, Stealth Scanner.
+
+---
+
+**Øclic5Recon** is a high-performance reconnaissance framework designed for **penetration testers** and **bug bounty hunters**. It automates the discovery of exposed assets and sensitive data by combining stealthy browser automation with **Google Gemini AI** for real-time security threat analysis and vulnerability assessment.
 
 ```text
   ╔═════════════════════════════════════════════════════════════════╗
@@ -100,10 +104,3 @@ python main.py
 This tool is strictly for **Authorized Penetration Testing and Ethical Hacking**.
 
 The developer (**70SNY_0XHUNTER**) is **not responsible** for misuse or unauthorized targeting.
----
-
-##  About the Author
-
-
-
-
