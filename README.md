@@ -69,7 +69,7 @@ project/
 ### Installation
 ```bash
 # Clone the repository
-git clone [<repository-url>](https://github.com/70sny-0clic5x/0clic5_RECON.git)
+git clone https://github.com/70sny-0clic5x/0clic5_RECON.git
 
 # Install required modules
 pip install playwright colorama google-generativeai
