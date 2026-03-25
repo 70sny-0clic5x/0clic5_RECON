@@ -125,13 +125,13 @@ _PREFERRED_PREFIXES = [
 
 
 def _is_text_model(name: str) -> bool:
-    """تحقق إن الموديل مش صوت/صورة/فيديو."""
+  
     n = name.lower()
     return not any(kw in n for kw in _EXCLUDED_KEYWORDS)
 
 
 def _model_priority(name: str) -> int:
-    """رقم أولوية أقل = أفضل."""
+    
     n = name.lower()
     for i, prefix in enumerate(_PREFERRED_PREFIXES):
         if prefix in n:
